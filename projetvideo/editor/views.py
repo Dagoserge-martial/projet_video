@@ -14,10 +14,6 @@ def postCode(request):
     url = 'https://tpcg.tutorialspoint.com/tpcg.php'
     cod = request.POST.get('contentA')
     print('code----------' ,cod)
-
-    
-    
-    
     data = {
         'lang': 'python',
         'device': '',
